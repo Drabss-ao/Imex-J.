@@ -6,10 +6,8 @@
   <title>Imex Jumar | Tecnología y Accesorios</title>
   <meta name="description" content="Venta de accesorios tecnológicos: USB, parlantes, audífonos, teclados, pilas y más. Envío rápido, atención personalizada, pagos seguros." />
   <meta name="keywords" content="Imex Jumar, tienda electrónica, tecnología, gadgets, parlantes, audífonos, USB, pilas, memorias, teclados" />
-  <!-- Carga Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Algunas mejoras visuales */
     body {
       background: linear-gradient(to bottom right, #3b82f6, #64748b);
       min-height: 100vh;
@@ -17,9 +15,6 @@
     }
     header, nav {
       background: #1e40af;
-    }
-    button {
-      transition: background-color 0.3s ease;
     }
   </style>
 </head>
@@ -120,7 +115,7 @@
       });
       mensaje += `\nTotal: S/ ${total.toFixed(2)}`;
 
-      const telefono = '51941265794'; // Número real que me diste
+      const telefono = '51941265794';
       const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
       window.open(url, '_blank');
     }
@@ -137,4 +132,3 @@
   </script>
 </body>
 </html>
-
